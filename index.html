@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="demo.css">
+    </head>
+<body>
+    <header>
+        <h1 class="head1" class="dotted">ALT SCHOOL ENGINEERING PROGRAM</h1>
+    </header>
+
+    <main>
+        <!--BASIC INFORMATION-->
+        <section id="basic-info">
+            <h2 class="head1">BASIC INFORMATIO</h2>
+            <p><strong>Alt School ID:</strong>ALT/SOE/024/5797.</p>
+        </section>
+        <!--BIOGRAPHY-->
+        <section id="biography">
+            <h2 class="head1">BIOGRAPHY</h2>
+            <p>Born on June 20, 1989, Ochang Oscar is a passionate and dynamic individual with a strong foundation in engineering and technology. A native of Bekwarra LGA of Cross River State, they have made significant strides in both professional and humanitarian endeavors, showcasing a remarkable blend of technical expertise and compassion for others.
+
+                Ochang Oscar is a proud graduate of Electrical and Electronics Engineering from the Federal University of Technology, Minna, Niger State. This rigorous academic background laid the groundwork for a successful career in the ever-evolving field of technology. During their time at the university, they honed their analytical and problem-solving skills, which have been instrumental in their tech journey.
+                
+                Driven by an insatiable curiosity and a passion for innovation, Ochang Oscar embarked on a rewarding career in technology. Over the years, they have developed expertise in areas such as software development, systems engineering, and emerging technologies, consistently staying ahead of industry trends. Their commitment to lifelong learning has enabled them to adapt to the rapid changes in the tech landscape, making them a valuable contributor to various projects and initiatives.
+                
+                Beyond their professional achievements, Ochang Oscar is deeply committed to humanitarian efforts. They have actively participated in programs aimed at empowering underprivileged communities, providing mentorship, and promoting STEM education for young people. This dedication to giving back reflects their belief in using knowledge and resources to create a positive impact.
+                
+                Through hard work, resilience, and a vision for a better future, Ochang Oscar continues to inspire others, balancing their technical career with a heartfelt commitment to improving lives.
+                
+        </section>
+      <!--REASONS FOR JOINING ALTSCHOOL-->
+        <section id="reason-for-joining">
+            <h2 class="head2">WHY I JOINED THE FRONT END TRACK WITH ALTSCHOOL AFRICA</h2>
+            <p>I joined the front end track with Altschool Africa due to the folowing reasons:
+                <ul>
+              <li>High demand for frontend engineering talents leading to good pay/incentives</li>
+              <li>Ability to work from home and across various companies/industries</li>
+              <li>front end creates room for continuos learning due to new innovations like react vue etc</li>
+              <li>frontend engineering improves once problem solving ability required to tackle real life challenges  </li>
+                </ul>
+            </p>
+        </section>
+       <!--GOALS-->
+        <section id="goals">
+            <h2 class="head3">GOALS</h2>
+            <p>My primary goals for this program are to:
+                <ol type="a">
+                    <li>Master software development and engineering fundamentals.</li>
+                    <li>Build a network with professionals and peers in the industry.</li>
+                    <li>Work on impactful projects that address real-world challenges.</li>
+                </ol>
+            </p>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Alt School Student Profile</p>
+        </footer>
+
+        <button class="back-to-top" id="backToTop">&uarr;</button>
+    </main>
+
+    <script>
+        // Scroll back to top functionality
+        const backToTopButton = document.getElementById('backToTop');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 100) {
+                backToTopButton.style.display = 'block';
+            } else {
+                backToTopButton.style.display = 'none';
+            }
+        });
+
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
+</body>
+</html>
